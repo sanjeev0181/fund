@@ -72,5 +72,16 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+    <snapshotRepository>
+      <id>nexusdeploymentrepo</id>
+      <url>http://54.234.166.10:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+	<repository>
+	  <id>nexusdeploymentrepo</id>
+      <url>http://54.234.166.10:8081/repository/maven-releases/</url>
+    </repository>
+  
+  </distributionManagement>
 
 </project>
